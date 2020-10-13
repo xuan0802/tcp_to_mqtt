@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  app:
+    image: tcp2mqtt
+    ports:
+      - "12345:12345"
+    restart: unless-stopped
+
